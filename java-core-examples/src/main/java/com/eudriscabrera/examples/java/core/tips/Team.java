@@ -12,8 +12,15 @@ public class Team {
     private String name;
     private boolean hasWonWoldSeries;
     private Integer lastTimeWonWorldSeries;
+    
+    
 
-    public Team(String teamId, String name, boolean hasWonWoldSeries, Integer lastTimeWonWorldSeries) {
+    public Team() {
+		super();
+	}
+
+
+	public Team(String teamId, String name, boolean hasWonWoldSeries, Integer lastTimeWonWorldSeries) {
         this.teamId = teamId;
         this.name = name;
         this.hasWonWoldSeries = hasWonWoldSeries;
@@ -61,5 +68,9 @@ public class Team {
                 .append("hasWonWoldSeries").append(hasWonWoldSeries)
                 .append("lastTimeWonWorldSeries").append(lastTimeWonWorldSeries)
                 .toString();
+    }
+    
+    public String printTeamInfo() {
+    	return String.join("-", teamId,name);
     }
 }

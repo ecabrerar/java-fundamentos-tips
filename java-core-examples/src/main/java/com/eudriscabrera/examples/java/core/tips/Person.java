@@ -25,6 +25,6 @@ public class Person {
 
 	@Override
 	public String toString() {
-		return name + " - " + age;
+		return name.concat(" - " ).concat(String.valueOf(age));
 	}
 }

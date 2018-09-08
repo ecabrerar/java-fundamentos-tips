@@ -68,7 +68,7 @@ public class StreamBasicos {
         map.put("a", 1);
 
 
-        StringBuilder sb = new StringBuilder();
+        StringBuilder sb = new StringBuilder(150);
         map.forEach((String k, Integer v) -> {
             sb.append(String.format("%s%s", k,v));
         });
