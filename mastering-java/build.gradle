@@ -38,23 +38,35 @@ dependencies {
  task tiposDatosYValoresPorDefecto(type: JavaExec){
        group = 'Java Fundamentos Tips'
        description = '001 - Conocer los tipos de datos y sus valores por defecto'
+       
+       classpath sourceSets.main.runtimeClasspath
+       main = 'com.eudriscabrera.examples.java.valoresdefectoytipos.ValoresPorDefecto'
  }
  
  task manejoCadenasCaracteres(type: JavaExec){
     group = 'Java Fundamentos Tips'
     description = '002 - Concatenar las cadenas de caracteres de forma correcta'
+  
+    classpath sourceSets.main.runtimeClasspath
+    main = 'com.eudriscabrera.examples.java.manejocadenas.ManejadorCadenasCaracteres'
  }  
 
  
  task cuandoUtilizarStringBuilder(type: JavaExec){
    group = 'Java Fundamentos Tips'
    description = '003 - Para cadenas grandes de caracteres usar `StringBuilder` en lugar de StringBuffer'
+   
+    classpath sourceSets.main.runtimeClasspath
+    main = 'com.eudriscabrera.examples.java.manejocadenas.ManejadorCadenasCaracteres' 
  }
  
   
   task eviteTipoDatosRaw(type: JavaExec){
     group = 'Java Fundamentos Tips'
     description = '004 - Evite Raw Type y en su lugar utilice tipos genericos'
+    
+    classpath sourceSets.main.runtimeClasspath
+    main = 'com.eudriscabrera.examples.java.genericos.TiposRawYGenericos' 
  }
  
  task usarTiposEnumerados(type: JavaExec){
@@ -71,40 +83,59 @@ dependencies {
  task comprenderUsoyManejoExcepciones(type: JavaExec){
    group = 'Java Fundamentos Tips'
    description = '007 - Comprender el uso y manejo de excepciones'
+   
+   classpath sourceSets.main.runtimeClasspath   
+   main = 'com.eudriscabrera.examples.java.excepciones.Calculadora'
  }  
   
   
  task hacerLoggingCorrectamente(type: JavaExec){
    group = 'Java Fundamentos Tips'
    description = '008 - Manejar los logs de forma más inteligente'
+   
+    classpath sourceSets.main.runtimeClasspath
+    main = 'com.eudriscabrera.examples.java.logger.DemoLogger'
  }
  
  task manejarCorrectamenteLosRecursos(type: JavaExec){
    group = 'Java Fundamentos Tips'
    description = '009 - Tratar los recursos (de archivos, conexiones a base de datos, socket, etc.) de forma correcta'
+   
+   classpath sourceSets.main.runtimeClasspath
+    main = 'com.eudriscabrera.examples.java.manejorecursos.DemoRecursosArchivosyDB'
  }
  
   task utilizarVarags(type: JavaExec){
      group = 'Java Fundamentos Tips'
      description = '010 - Usar Varargs'  
+     
+     classpath sourceSets.main.runtimeClasspath     
+     main = 'com.eudriscabrera.examples.java.DemoVarargs'
+     
   }
   
  
   task utiliceBigDecimalSiRequiereResultadoExacto(type: JavaExec){
    group = 'Java Fundamentos Tips'
    description = '011 - Utilice BigDecimal en operaciones que requieran de resultado exacto'
+   
+   classpath sourceSets.main.runtimeClasspath
  }
  
  
   task utilicePathYFiles (type: JavaExec){
      group = 'Java Fundamentos Tips'
      description = '012 - Utilizar Paths y Files'
+     
+     classpath sourceSets.main.runtimeClasspath
   
   }
   
   task adoptarExpresionesLambdas(type: JavaExec){
      group = 'Java Fundamentos Tips'
      description = '013 - Aprender cómo y por qué usar Expresiones Lambdas'
+     
+     
   
   }
   
@@ -112,12 +143,15 @@ dependencies {
      group = 'Java Fundamentos Tips'
      description = '014 - Utilizar el API Stream y las expresiones Lambda en conjunto para proporcionar potentes capacidades de filtrado'
     
+    classpath sourceSets.main.runtimeClasspath
   }  
  
  task aprovecharElUsoDeOptional(type: JavaExec){
    group = 'Java Fundamentos Tips'
    description = '015 - Entender, aceptar y aprovechar Optional'
    
+   classpath sourceSets.main.runtimeClasspath   
+   main = 'com.eudriscabrera.examples.java.DemoManejadorNulo'  
  }
   
 
