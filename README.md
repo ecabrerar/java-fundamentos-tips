@@ -5,5 +5,5 @@ Ejemplos para la presentación "Fundamentos de Java / 15 consejos prácticos sob
 2. [Open Saturday Santiago 2018](https://www.slideshare.net/eudris/java-fundamentos-15-consejos-practicos-open-saturday-2018)
 3. [Encuentro Universitario Comunidad Java Dominicano 2018 - UASD Santiago](https://www.slideshare.net/eudris/java-fundamentos-15-consejos-prcticos-encuentro-universitario-comunidad-java-dominicano-2018)
 4. [ITLA Tech Day 2018](https://www.slideshare.net/eudris/java-fundamentos-15-consejos-practicos-itla-tech-day-2018)
-5. [Baranquilla JUG Webinar](baranquilla-jug)
+5. [Baranquilla JUG Webinar 2020](baranquilla-jug)
 
