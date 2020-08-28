@@ -79,7 +79,7 @@ java.time
   - java.util.logging
   - slf4j + logback
   
-####. Tratar los recursos (de archivos, conexiones a base de datos, socket, etc.) de forma correcta done!
+#### 9. Tratar los recursos (de archivos, conexiones a base de datos, socket, etc.) de forma correcta done!
 
 - Manejando recursos de base de datos manualmente
 - Manejando recursos de archivos manualmente
