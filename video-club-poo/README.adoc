@@ -17,10 +17,14 @@ el dinero que tiene que pagar por las peliculas alquiladas. El video club cobra 
  
 También el cliente cuenta con un programa de puntos, si el cliente alquila una pelicula de tipo novedad por más de 1 días el cliente acomula puntos que luego podrá usar en el alquiler de otra pelicula. 
 
+En el directorio  `start` encontrarás un proyecto con un código básico sobre el cuál vamos a trabajar.
 
+Abrir el proyecto `start/video-club-poo` en su editor favorito.
 
+Nuestro diseño inicial es funcional pero tiene errores de diseño y a continuación vamos a
+analizar el proyecto con fines de mejorar el código.  
 
-
+Inicialmente, tendríamos  3 clases : DVD, Alquiler y Cliente. 
 
 
 
