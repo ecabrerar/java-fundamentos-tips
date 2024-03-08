@@ -5,8 +5,8 @@ Analizando algunos principios básicos de programación que todo programador deb
 1-  Keep It Simple, Stupid (KISS) []
 2 - Don't Repeat Yourself (DRY)
 3-  Open/Closed
-5 - Composition Over Inheritance
-6 - Single Responsibility
+5 - Single Responsibility
+6 - Composition Over Inheritance
 7 - Prefer interface over implementation
 8-  Refactor
 9-  Simplifying Conditional Expressions 
@@ -23,8 +23,9 @@ Abrir el proyecto `start/basic-programming-principles` en su editor favorito.
 
 
 
+Todos estos principios tienen un mismo propósito:
 
-
+"Crear código comprensible, legible y comprobable en el que muchos desarrolladores puedan trabajar en colaboración."
 
 
 
