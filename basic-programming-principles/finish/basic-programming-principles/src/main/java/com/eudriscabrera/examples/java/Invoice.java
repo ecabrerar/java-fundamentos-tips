@@ -20,6 +20,11 @@ public class Invoice {
 		this.taxRate = taxRate;
 		this.total = calculateTotal();
 	}
+	
+	
+
+	
+
 
 	public double calculateTotal() {
 
@@ -36,8 +41,6 @@ public class Invoice {
           System.out.println("Total: " + total);
 	}
 	
-	public void saveInvoice(String fileName) {
-		//save the invoice
-	}
+	
 
 }
