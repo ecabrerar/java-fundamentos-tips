@@ -1,0 +1,39 @@
+= Principios Básicos de Programación que Todo Programador Debe Conocer
+Analizando algunos principios básicos de programación que todo programador debe conocer.
+
+
+1-  Keep It Simple, Stupid (KISS) []
+2 - Don't Repeat Yourself (DRY)
+3-  Open/Closed
+5 - Composition Over Inheritance
+6 - Single Responsibility
+7 - Prefer interface over implementation
+8-  Refactor
+9-  Simplifying Conditional Expressions 
+      - Decompose Conditional  or Compose Method
+      - Replace Conditional with Polymorphism 
+   
+
+
+En el directorio  `start` encontrarás un proyecto con ejemplos básicos para poner en prácticas los principios que queremos explicar.
+
+Abrir el proyecto `start/basic-programming-principles` en su editor favorito.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&copy; 2024 - Eudris Cabrera
+Contenido creado bajo licencia CC BY-NC-SA 4.0
+https://creativecommons.org/licenses/by-nc-sa/4.0/
